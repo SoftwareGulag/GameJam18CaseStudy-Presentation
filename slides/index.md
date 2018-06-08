@@ -18,6 +18,36 @@
 Pawel Jelinski
 
 ***
+### Befor we start
+
+---
+### Read those books!
+
+* Clean Code: A Handbook of Agile Software Craftsmanship, by Rober C. Martin
+* Test Driven Development: By Example, by Kent Beck
+* Refactoring to Patterns, by Joshua Kerievsky
+* The Clean Coder: A Code of Conduct for Professional Programmers, by Rober C. Martin
+* The Art of Unit Testing: with examples in C#, by Roy Osherove
+
+***
+### Agenda
+
+---
+1. What is legacy software?
+2. What is clean code?
+3. How to write clean code?
+4. Case study
+5. Summary
+
+***
+### What is legacy code?
+---
+_Legacy code is simply code without tests._
+
+___Feathers, Michael. Working Effectively with Legacy Code.___
+
+
+***
 ### What is clean code?
 
 ---
@@ -36,10 +66,113 @@ _I could list all of the qualities that I notice in clean code, but there is one
 ___Michael Feathers, author of Working Effectively with Legacy Code___
 
 ---
-_You know you are working with clean code when each routine you read turns out to be pretty much what you expected. You can call it beautiful code when the code also makes it look like the language was made for the problem.._
+_You know you are working with clean code when each routine you read turns out to be pretty much what you expected. You can call it beautiful code when the code also makes it look like the language was made for the problem._
 
 ___Ward Cunningham, inventor of Wiki and Fit, co-inventor of Extreme Programming___
 
+---
+* hard to create nasty bugs
+* simple and direct
+* easy to read
+* easy to imporve
+* works as you
+
+***
+### How to wirght clean code?
+
+***
+### SOLID
+
+---
+
+* Single responsibility principle
+* Open/closed principle
+* Liskov substitution principle
+* Interface segregation principle
+* Dependency inversion principle
+
+---
+* SOLID princpiles are not gloden hammer. 
+* They are guidlines created to reduce coupling and increase cohesion.
+
+---
+### Principles of package cohesion & Principles of package coupling
+
+***
+### TDD
+Invented by Smalltalkers, in order to write type safe code. Later rediscoverd by Kent Beck.
+
+---
+### Red, green, refactor
+
+* write red test
+* make test pass
+* refactor
+
+---
+
+_As the tests get more specific, the production code gets more generic._
+
+___Rober C. Martin___ 
+
+---
+### Pros
+
+* comprehensive unit test suite
+* documentation
+* simple design
+* give confidence
+
+---
+### Cons
+
+***
+### Design patterns
+
+---
+_Design pattern is a general, reusable solution to a commonly occurring problem within a given context_
+
+___Design patterns, Gang of four___
+
+***
+### DDD, BDD, DRY...
+
+***
+### Case study
+
+---
+### Game Jam 2018
+
+---
+### Offive Parkour
+
+---
+### Technology choice
+## Unity vs Phaser
+
+---
+### If driven architecture
+
+---
+### Manual testing
+
+---
+### Last hours
+## Bugs,rigidity and fear
+
+---
+### Code
+
+***
+### Spike, POC, MVP
+
+***
+### Pirmary value of svtware vs Secondary value of software
+
+***
+## Why we broke rule and what were consequntions?
+
+### Sources
 
 ***
 ### Thank you!
