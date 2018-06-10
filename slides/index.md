@@ -1,5 +1,5 @@
 - title : How to create a legacy project in less than two days?
-- description : Real life example of what happens when programmers do not care about clean code.
+- description : What is legacy code and How it is made? How to stop code decay and when it's acceptable. Game Jam 18 case study.
 - author : Pawel Jelinski
 - theme : night
 - transition : default
@@ -8,26 +8,22 @@
 
 ## How to create a legacy project in less than two days?
 
-<br />
-<br />
 
 ### GameJam 2018 case study
 
-<br />
-<br />
 Pawel Jelinski
 
 ***
 ### Befor we start
 
 ---
-### Read those books!
+### If you read those books, You can leave.
 
-* Clean Code: A Handbook of Agile Software Craftsmanship, by Rober C. Martin
-* Test Driven Development: By Example, by Kent Beck
-* Refactoring to Patterns, by Joshua Kerievsky
-* The Clean Coder: A Code of Conduct for Professional Programmers, by Rober C. Martin
-* The Art of Unit Testing: with examples in C#, by Roy Osherove
+* Kent Beck, Test Driven Development: By Example
+* Joshua Kerievsky, Refactoring to Patterns
+* Robert C. Martin, The Clean Coder: A Code of Conduct for Professional Programmers
+* Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+* Michael Feathers, Working Effectively with Legacy Code
 
 ***
 ### Agenda
@@ -41,10 +37,14 @@ Pawel Jelinski
 
 ***
 ### What is legacy code?
+
 ---
-_Legacy code is simply code without tests._
+_Legacy code. The phrase strikes disgust in the hearts of programmers. It conjures images of slogging through a murky swamp of tangled undergrowth with leaches beneath and stinging flies above. It conjures odors of murk, slime, stagnancy, and offal. Although our first joy of programming may have been intense, the misery of dealing with legacy code is often sufficient to extinguish that flame._
 
 ___Feathers, Michael. Working Effectively with Legacy Code.___
+
+---
+### Code without tests rots like a piece of bad meat.
 
 
 ***
@@ -74,7 +74,7 @@ ___Ward Cunningham, inventor of Wiki and Fit, co-inventor of Extreme Programming
 * hard to create nasty bugs
 * simple and direct
 * easy to read
-* easy to imporve
+* easy to improve
 * works as you
 
 ***
@@ -92,20 +92,26 @@ ___Ward Cunningham, inventor of Wiki and Fit, co-inventor of Extreme Programming
 * Dependency inversion principle
 
 ---
-* SOLID princpiles are not gloden hammer. 
-* They are guidlines created to reduce coupling and increase cohesion.
+* SOLID principles are not a golden hammer. 
+* They are guidelines created to reduce coupling and increase cohesion.
 
 ---
 ### Principles of package cohesion & Principles of package coupling
 
 ***
+### Automated tests
+---
+_Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse._
+
+___Feathers, Michael. Working Effectively with Legacy Code.___
+---
 ### TDD
-Invented by Smalltalkers, in order to write type safe code. Later rediscoverd by Kent Beck.
+Invented by Smalltalkers, in order to write type-safe code. Later rediscovered by Kent Beck.
 
 ---
 ### Red, green, refactor
 
-* write red test
+* write failing test
 * make test pass
 * refactor
 
@@ -144,7 +150,7 @@ ___Design patterns, Gang of four___
 ### Game Jam 2018
 
 ---
-### Offive Parkour
+### Office Parkour
 
 ---
 ### Technology choice
@@ -167,10 +173,10 @@ ___Design patterns, Gang of four___
 ### Spike, POC, MVP
 
 ***
-### Pirmary value of svtware vs Secondary value of software
+### Primary value of software vs Secondary value of software
 
 ***
-## Why we broke rule and what were consequntions?
+## Why we broke rules and what were consequences?
 
 ### Sources
 
